@@ -99,7 +99,7 @@ export default {
         width: 120px;
         height: 50px;
         font-weight: 700;
-        flex-shrink: 0;
+        flex-shrink: 1;
     }
     @include media-breakpoint-down(lg) {
         display: block;
