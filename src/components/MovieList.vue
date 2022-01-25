@@ -23,11 +23,11 @@
 
 <script>
 import { mapState } from 'vuex'
-import Movieitem from '~/components/Movieitem'
+import MovieItem from '~/components/MovieItem'
 import Loader from '~/components/Loader'
 export default {
     components: {
-        Movieitem,
+        MovieItem,
         Loader
     },
     computed: {
