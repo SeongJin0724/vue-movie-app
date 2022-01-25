@@ -1,4 +1,5 @@
 <template>
+<!-- 제목 대소문자 수정 -->
     <RouterLink
     :to="`/movie/${movie.imdbID}`"
     :style="{ backgroundImage: `url(${movie.Poster})`}"
