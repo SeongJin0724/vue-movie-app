@@ -6,13 +6,13 @@
             v-for="nav in navigations"
             :key="nav.name"
             class="nav-item">
-                <RouterLink
+            <RouterLink
                 :to="nav.href"
                 active-class="active"
                 :class="{ active: isMatch(nav.path) }"
                 class="nav-link">
                 {{ nav.name }}
-                </RouterLink>
+            </RouterLink>
             </div>
         </div>
         <div class="user" @click="toAbout">
